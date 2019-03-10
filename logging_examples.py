@@ -70,6 +70,7 @@ def create_logger_handler():
     f_handler.setFormatter(f_format)
 
     # Add handlers to the logger
+
     logger.addHandler(c_handler)
     logger.addHandler(f_handler)
 
